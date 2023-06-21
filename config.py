@@ -10,7 +10,7 @@ class Config:
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
     DOWNLOAD_LOCATION = "./DOWNLOADS"
     TG_MAX_SIZE = 2040108421
-    OWNER_ID = int(os.environ.get("OWNER_ID", 1316963576))
+    OWNER_ID = int(os.environ.get("OWNER_ID", ))
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL"))
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", None)
 
